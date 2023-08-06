@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { breakpoints, colors } from "../../styles";
 
 export const Container = styled.section`
-  width: 100vw;
+  
   padding-bottom: 4rem;
  
   background: ${colors.red};

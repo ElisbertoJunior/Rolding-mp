@@ -3,8 +3,8 @@ import { breakpoints, colors } from './../../styles/index';
 import styled from "styled-components";
 
 export const Container = styled.section`
-  padding-bottom: 2.5rem;
-  width: 100vw;
+  padding: 10rem 0;
+  
   background: rgb(255, 255, 255);
   background: linear-gradient(
     90deg,
@@ -25,6 +25,11 @@ export const Container = styled.section`
         justify-content: center;
         gap: 2rem;
         padding-left: 0;
+
+        > img {
+          padding-top: 2rem;
+          width: 250px;
+        }
     }
 
     

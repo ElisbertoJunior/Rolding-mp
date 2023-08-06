@@ -6,7 +6,7 @@ type Props = {
 };
 
 export const Container = styled.section`
-  width: 100vw;
+  
   background: ${colors.white};
 
   display: flex;

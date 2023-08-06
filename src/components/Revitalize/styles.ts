@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { breakpoints, colors } from "../../styles";
 
 export const Container = styled.section`
-  width: 100vw;
+  
   padding: 7.5rem 0;
   background: rgb(255, 255, 255);
   background: linear-gradient(

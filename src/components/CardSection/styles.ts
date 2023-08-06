@@ -6,7 +6,7 @@ type Props = {
 };
 
 export const Container = styled.section` 
-  width: 100vw;
+ 
   margin: 3rem 0;
 
   .container {

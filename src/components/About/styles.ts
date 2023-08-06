@@ -3,8 +3,8 @@ import banner from '../../assets/bannerSobre.svg'
 import { breakpoints } from "../../styles";
 
 export const AboutSection = styled.section`
-  width: 100vw;
-  padding-bottom: 2.5rem;
+  
+  padding-bottom: 10rem;
   background-image: url(${banner});
   background-size: cover;
   @media(max-width: ${breakpoints.tablet}) {

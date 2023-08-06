@@ -4,7 +4,7 @@ import { breakpoints } from "../../styles";
 
 export const Section = styled.section`
   padding-bottom: 15rem;
-  width: 100vw;
+  
   padding-top: 6.25rem;
   @media (max-width: ${breakpoints.tablet}) {
     padding-top: 2rem;
