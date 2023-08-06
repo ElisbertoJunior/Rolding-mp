@@ -15,7 +15,7 @@ export const Container = styled.section`
     align-items: center;
     gap: 2rem;
 
-    padding: 2rem;
+    padding: 0;
   }
 `;
 export const RedContent = styled.div`

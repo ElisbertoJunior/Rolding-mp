@@ -4,7 +4,7 @@ import { breakpoints } from "../../styles";
 
 export const AboutSection = styled.section`
   width: 100vw;
-  height: 80vh;
+  padding-bottom: 2.5rem;
   background-image: url(${banner});
   background-size: cover;
   @media(max-width: ${breakpoints.tablet}) {

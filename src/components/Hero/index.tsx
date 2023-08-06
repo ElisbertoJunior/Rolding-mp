@@ -1,5 +1,5 @@
-import { Main, Section } from "./styles";
-import logo from '../../assets/LogoLibido.svg'
+import { Logo, Main, Section } from "./styles";
+import logo from '../../assets/LogoLibido.png'
 import MoreButton from "../MoreButton";
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
           </span>
           <MoreButton />
         </div>
-        <img src={logo} alt="Logo Libido Master" />
+        <Logo src={logo} alt="Logo Libido Master" />
       </Main>
     </Section>
   );

@@ -3,11 +3,12 @@ import { breakpoints } from "../../styles";
 //import { colors } from "../../styles";
 
 export const Section = styled.section`
-  height: 90vh;
+  padding-bottom: 15rem;
   width: 100vw;
   padding-top: 6.25rem;
   @media (max-width: ${breakpoints.tablet}) {
     padding-top: 2rem;
+    padding-bottom: 2rem;
    
   }
   background: rgb(255, 255, 255);
@@ -27,6 +28,8 @@ export const Main = styled.main`
 
   @media (max-width: ${breakpoints.tablet}) {
     flex-direction: column;
+    align-items: center;
+    gap: 2rem;
    
   }
 
@@ -51,11 +54,15 @@ export const Main = styled.main`
       }
     }
 
-    @media (max-width: ${breakpoints.tablet}) {
-      img {
-        height: 2px;
-      }
-     
-   }
+    
   }
 `;
+
+export const Logo = styled.img`
+ @media (max-width: ${breakpoints.tablet}) {
+      
+        height: 12.5rem;
+      
+     
+   }
+`

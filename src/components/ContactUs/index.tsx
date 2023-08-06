@@ -1,7 +1,7 @@
 import { Container } from "./styles";
 import insta from "../../assets/insta.png";
 import face from "../../assets/face.png";
-import logo from "../../assets/LogoLibido.svg";
+import logo from "../../assets/LogoLibido.png";
 
 const ContactUs = () => {
   return (
