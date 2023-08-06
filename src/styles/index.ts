@@ -24,6 +24,11 @@ const GlobalStyle = createGlobalStyle`
     list-style: none;
     text-decoration: none;
     color: ${colors.textColor};
+    
+     h3, h2 {
+      font-weight: bold;
+     }
+
   }
 
   .container {

@@ -6,7 +6,6 @@ type Props = {
 };
 
 export const Container = styled.section`
-  
   background: ${colors.white};
 
   display: flex;
@@ -19,7 +18,13 @@ export const Container = styled.section`
   }
 `;
 export const RedContent = styled.div`
-  background: ${colors.red};
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(191, 27, 44, 1) 0%,
+    rgba(205, 205, 205, 1) 100%
+  );
   width: 100%;
   height: 100%;
   padding: 3rem 0;
@@ -73,7 +78,13 @@ export const DescriptionCard = styled.div`
   flex-direction: column;
   gap: 1rem;
   border-radius: 1rem;
-  background: ${colors.red};
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(191, 27, 44, 1) 0%,
+    rgba(205, 205, 205, 1) 100%
+  );
   text-align: center;
 
   strong {
